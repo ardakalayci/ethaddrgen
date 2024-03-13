@@ -62,3 +62,6 @@ You can also compile it yourself, if you wish so.
 1. Install [Rust via Rustup.rs](http://rustup.rs/)
 2. Clone this repository: `git clone https://github.com/Limeth/ethaddrgen.git; cd ethaddrgen`
 3. Compile the project: `cargo build --release`. The binary can then be found at `target/release/ethaddrgen` or `./target/release/ethaddrgen.exe` on Windows machines.
+
+
+target/release/ethaddrgen -e '^(?:[^0]*0){14,}'
