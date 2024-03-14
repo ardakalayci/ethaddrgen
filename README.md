@@ -65,3 +65,4 @@ You can also compile it yourself, if you wish so.
 
 
 target/release/ethaddrgen -e '^(?:[^0]*0){14,}'
+
